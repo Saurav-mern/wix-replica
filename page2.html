@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="icon" href="foologo.jpg" type="image/x-icon">
+</head>
+<body>
+    
+    <nav class="navigation-bar">
+        <a href="index.html"><img class="logo" src="l2.jpg" alt="Logo"></a>
+    </nav>
+
+    <div class="center">
+      <p id="signup">Sign Up</p>
+      <p id="already">Already have an account? <a href="#">Log In</a><p>
+    </div>
+
+    <div class="form">
+        <form action="/" method="GET" id="myForm">
+            <label for="email">
+                <input id="email" class="form1 ani" type="email" name="email" placeholder="Email" required>
+            </label>
+            <input class="form1 ani" type="email" placeholder="Type Your Email Again" required>
+            <label for="password">
+                <input id="password" class="form1 ani" type="password" name="password" placeholder="Password" required>
+            </label>
+            <input class="form1 ani" type="password" placeholder="Type Your Password Again" required>
+            <input class="form1 button" type="submit" value="Signup">
+        </form>
+    </div>
+
+    <div class="vl"></div>
+
+    <button onclick="location.href='http://www.facebook.com/login'" class="loginBtn loginBtn--facebook">
+         Continue with Facebook
+    </button>
+    
+    <button onclick="location.href='http://www.google.com/'" class="loginBtn loginBtn--google">
+        Continue with Google
+    </button>
+    
+    <div id="terms" class="center wrapper">
+        <p>* By signing up, you agree to  our <a href="https://www.wix.com/about/terms-of-use" target="_blank">Terms of Use</a> and to receive Wix emails & updates and acknowledge that you read our
+        <a href="https://www.wix.com/about/privacy" target="_blank">Privacy Policy</a>.</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
